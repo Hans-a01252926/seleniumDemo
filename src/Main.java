@@ -17,7 +17,7 @@ public class Main {
 
     public static void formTest() {
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.selenium.dev/selenium/web/web-form.html");
+        driver.get("https://www.bbc.com");
 
         String title = driver.getTitle();
         System.out.println("Test: "+ title);
